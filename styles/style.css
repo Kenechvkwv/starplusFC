@@ -1,5 +1,13 @@
 body {
+  box-sizing: border-box;
   font-family: "Montserrat", sans-serif;
+  background-image: url("../assets/footballpitch.jpg");
+  /* Photo by Markus Spiske: https://www.pexels.com/photo/sky-sunset-field-sunrise-114296/ */
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  background-attachment: fixed;
+  background-position: center;
 }
 @media only screen and (min-width: 600px) {
   .pe-md-6 {
@@ -8,6 +16,18 @@ body {
 
   .menuList {
     gap: 48px;
+  }
+
+  .mt-md-6 {
+    /* margin-top: 60vh; */
+    padding: 350px 0px;
+  }
+}
+
+@media only screen and (max-width: 599px) {
+  .mt-6 {
+    /* margin-top: 50vh; */
+    padding: 300px 0px;
   }
 }
 
@@ -26,4 +46,38 @@ body {
 .nav-item a:hover {
   color: #1b4fc9;
   transition: all 0.5s ease-in-out;
+}
+.section1 {
+  width: 100%;
+}
+
+.section1 h1,
+h3 {
+  text-shadow: 2px 2px 2px black;
+}
+
+.contactbtn {
+  color: #f9fc8d;
+  background-color: #1b4fc9;
+  padding: 15px 25px;
+  border: none;
+  border-radius: 25px;
+  font-weight: 700;
+  box-shadow: 5px 5px 15px black;
+}
+
+.contactbtn:hover {
+  color: #1b4fc9;
+  background-color: #f9fc8d;
+  font-weight: 700;
+}
+
+.modal-content {
+  background-color: #111c38;
+  color: #f9fc8d;
+}
+
+.btn-close {
+  color: #f9fc8d;
+  background-color: #f9fc8d;
 }

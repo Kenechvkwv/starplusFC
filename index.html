@@ -16,7 +16,7 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="./styles/style.css" />
-    <title>Home|FC Starplus</title>
+    <title>Home | FC Starplus</title>
 
     <!-- Fonts  -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -26,9 +26,11 @@
       rel="stylesheet"
     />
   </head>
-  <body>
+  <body class="containerfluid">
     <!-- Navigation Bar  -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-gold fw-bold shadow">
+    <nav
+      class="navbar navbar-expand-lg navbar-light bg-gold fw-bold shadow fixed-top"
+    >
       <div class="container-fluid">
         <a class="navbar-brand pe-md-6" href="#" id="logo"
           ><img
@@ -73,7 +75,105 @@
       </div>
     </nav>
 
-    <!-- Body Carousel  -->
+    <div class="section1 mt-6 mt-md-6">
+      <div class="text-center">
+        <img
+          src="./assets/fcstarplusLogo.png"
+          class="img-fluid"
+          alt=""
+          width="150px"
+        />
+        <h1 class="fw-bold text-white mt-3 mb-5">
+          Starplus Youth International
+        </h1>
+      </div>
+      <div class="text-center">
+        <h3 class="fw-semibold text-white">
+          Creating and Nurturing The Next Generation of Nigerian Football
+          Talents
+        </h3>
+
+        <button
+          type="button"
+          class="contactbtn mt-5"
+          data-bs-toggle="modal"
+          data-bs-target="#exampleModal"
+        >
+          CONTACT US
+        </button>
+      </div>
+    </div>
+
+    <!-- Modal -->
+    <div
+      class="modal fade"
+      id="exampleModal"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalLabel">
+              We will consider your request
+            </h1>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <form>
+              <div class="mb-1">
+                <label for="exampleInputEmail1" class="form-label">Name</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="exampleInputText1"
+                  aria-describedby="text"
+                />
+                <div id="text" class="form-text">
+                  We'll never share your email with anyone else.
+                </div>
+              </div>
+              <div class="mb-1">
+                <label for="exampleInputEmail1" class="form-label"
+                  >Email address</label
+                >
+                <input
+                  type="email"
+                  class="form-control"
+                  id="exampleInputEmail1"
+                  aria-describedby="emailHelp"
+                />
+                <div id="emailHelp" class="form-text">
+                  We'll never share your email with anyone else.
+                </div>
+              </div>
+              <div class="mb-1">
+                <label for="exampleInputPassword1" class="form-label"
+                  >Phone Number</label
+                >
+                <input type="tel" class="form-control" id="exampleInputTel1" />
+              </div>
+
+              <div class="form-group mb-1 mt-5">
+                <label for="comment" class="mb-3">How can we help you?</label>
+                <textarea class="form-control" rows="4" id="comment"></textarea>
+              </div>
+              <div class="text-center">
+                <button type="submit" class="btn btn-primary mt-4">
+                  Submit
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
 
     <!-- Compiled and minified JavaScript -->
     <script
