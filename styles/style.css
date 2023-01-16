@@ -1,0 +1,29 @@
+body {
+  font-family: "Montserrat", sans-serif;
+}
+@media only screen and (min-width: 600px) {
+  .pe-md-6 {
+    padding-right: 200px;
+  }
+
+  .menuList {
+    gap: 48px;
+  }
+}
+
+.bg-gold {
+  background-color: #f9fc8d;
+}
+
+.text-blue {
+  color: #374870;
+}
+
+.nav-item a {
+  color: #374870;
+}
+
+.nav-item a:hover {
+  color: #1b4fc9;
+  transition: all 0.5s ease-in-out;
+}
