@@ -5,7 +5,6 @@ body {
   /* Photo by Markus Spiske: https://www.pexels.com/photo/sky-sunset-field-sunrise-114296/ */
   background-size: cover;
   background-repeat: no-repeat;
-  height: 100vh;
   background-attachment: fixed;
   background-position: center;
 }
@@ -34,7 +33,9 @@ body {
 .bg-gold {
   background-color: #f9fc8d;
 }
-
+.bg-blue {
+  background-color: #374870;
+}
 .text-blue {
   color: #374870;
 }
