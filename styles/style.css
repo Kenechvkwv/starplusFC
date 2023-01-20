@@ -19,17 +19,16 @@ body {
 
   .mt-md-6 {
     /* margin-top: 60vh; */
-    padding: 350px 0px;
+    padding: 250px 0px;
   }
 }
 
 @media only screen and (max-width: 599px) {
   .mt-6 {
     /* margin-top: 50vh; */
-    padding: 300px 0px;
+    padding: 200px 0px;
   }
 }
-
 .bg-gold {
   background-color: #f9fc8d;
 }
@@ -42,6 +41,10 @@ body {
 
 .nav-item a {
   color: #374870;
+}
+
+.text-gold {
+  color: #f9fc8d;
 }
 
 .nav-item a:hover {
@@ -59,7 +62,7 @@ h3 {
 
 .contactbtn {
   color: #f9fc8d;
-  background-color: #1b4fc9;
+  background-color: #374870;
   padding: 15px 25px;
   border: none;
   border-radius: 25px;
@@ -68,7 +71,7 @@ h3 {
 }
 
 .contactbtn:hover {
-  color: #1b4fc9;
+  color: #374870;
   background-color: #f9fc8d;
   font-weight: 700;
 }
